@@ -9,18 +9,11 @@ import SwiftUI
 
 struct FrameworkDetailView: View {
     var framework: Framework
-    @Binding var isShowingDetailView: Bool
+    
     @State var isShowingSafariView: Bool = false
     
     var body: some View {
         VStack {
-            HStack {
-                
-                Spacer()
-                
-                SFXDismissButton(isShowingDetailView: $isShowingDetailView)
-            }
-            .padding()
             
             Spacer()
             
@@ -32,7 +25,15 @@ struct FrameworkDetailView: View {
             
             Spacer()
             
-            SFButton(title: "Learn more", isShowingSafariView: $isShowingSafariView)
+            Button {
+                isShowingSafariView = true
+            } label: {
+                Label("Learn more", systemImage: "book.fill")
+            }
+            .buttonStyle(.borderedProminent)
+            .controlSize(.large)
+            .buttonBorderShape(.roundedRectangle(radius: 20))
+            .tint(Color.red)
         }
         .fullScreenCover(isPresented: $isShowingSafariView) {
             SafariView(url: URL(string: framework.urlString)!)
@@ -42,6 +43,6 @@ struct FrameworkDetailView: View {
 
 struct FrameworkDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FrameworkDetailView(framework: MockData.sampleFramework, isShowingDetailView: .constant(false))
+        FrameworkDetailView(framework: MockData.sampleFramework)
     }
 }
