@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E8019B9929759A5F0030A63B /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8019B9829759A5F0030A63B /* SafariView.swift */; };
 		E8019B9D2975EE7A0030A63B /* FrameworkTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8019B9C2975EE7A0030A63B /* FrameworkTitleView.swift */; };
-		E8019B9F2975EF620030A63B /* SFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8019B9E2975EF620030A63B /* SFButton.swift */; };
 		E8019BA12975F0240030A63B /* SFXDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8019BA02975F0240030A63B /* SFXDismissButton.swift */; };
 		E83B2D5529713FDD00DDD7F5 /* Apple_FrameworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E83B2D5429713FDD00DDD7F5 /* Apple_FrameworksApp.swift */; };
 		E83B2D5929713FDE00DDD7F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E83B2D5829713FDE00DDD7F5 /* Assets.xcassets */; };
@@ -23,7 +22,6 @@
 /* Begin PBXFileReference section */
 		E8019B9829759A5F0030A63B /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		E8019B9C2975EE7A0030A63B /* FrameworkTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkTitleView.swift; sourceTree = "<group>"; };
-		E8019B9E2975EF620030A63B /* SFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFButton.swift; sourceTree = "<group>"; };
 		E8019BA02975F0240030A63B /* SFXDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFXDismissButton.swift; sourceTree = "<group>"; };
 		E83B2D5129713FDD00DDD7F5 /* Apple-Frameworks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple-Frameworks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E83B2D5429713FDD00DDD7F5 /* Apple_FrameworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_FrameworksApp.swift; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 			isa = PBXGroup;
 			children = (
 				E8019BA02975F0240030A63B /* SFXDismissButton.swift */,
-				E8019B9E2975EF620030A63B /* SFButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -229,7 +226,6 @@
 				E83B2D5529713FDD00DDD7F5 /* Apple_FrameworksApp.swift in Sources */,
 				E8019BA12975F0240030A63B /* SFXDismissButton.swift in Sources */,
 				E8019B9929759A5F0030A63B /* SafariView.swift in Sources */,
-				E8019B9F2975EF620030A63B /* SFButton.swift in Sources */,
 				E83B2D6D29748FB100DDD7F5 /* FrameworkGridViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +355,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Apple-Frameworks/Preview Content\"";
+				DEVELOPMENT_TEAM = DHKYX69V83;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -387,6 +384,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Apple-Frameworks/Preview Content\"";
+				DEVELOPMENT_TEAM = DHKYX69V83;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
